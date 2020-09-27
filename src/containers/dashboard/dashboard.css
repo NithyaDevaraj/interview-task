@@ -1,0 +1,149 @@
+.heading {
+    height: 36px;
+    text-align: left;
+    font: normal normal normal 28px/40px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #43425d;
+    opacity: 1;
+}
+
+.flex-gap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.statistics {
+    width: 65%;
+}
+
+.users-product-wrapper {
+    width: 32%;
+}
+
+.users {
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.edit-icon{
+    position: absolute;
+    top: 35px;
+    right: 139px;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.product-video {
+    position: relative;
+    margin-top: 30px;
+    height: 289px;
+    width: 100%;
+    background-color: white;
+}
+
+.graphs {
+    width: 100%;
+}
+
+.product-video-heading {
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding: 15px 0px 21px 21px;
+}
+
+.product-video-thumbnail {
+    height: 198px;
+    width: 87%;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 0px 21px;
+}
+
+.profile-pic {
+    width: 107px;
+    height: 107px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font: normal normal bold 18px/13px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4d4f5c;
+    opacity: 1;
+    margin: 20px 0 8px;
+}
+
+.user-place {
+    font: normal normal normal 15px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #43425d;
+    opacity: 0.5;
+}
+
+.social-media-icons {
+    width: 100%;
+    margin: 0 23px;
+    padding: 15px;
+    border-bottom: 1px solid #cecfd0;
+}
+
+.our-users-header-wrapper {
+    padding: 0 23px;
+}
+
+.our-users {
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.our-users-list {
+    padding: 23px 25px 0;
+}
+
+.users-list-user-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-details {
+    width: 70%;
+}
+
+.user-list-item {
+    padding: 10px 0;
+}
+
+.video-play-icon {
+    width: 65px;
+    height: 65px;
+    opacity: 1;
+    position: absolute;
+    top: 128px;
+    left: 146px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .users {
+        width: 100%;
+    }
+    .users-product-wrapper {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .statistics {
+        width: 100%;
+    }
+}
